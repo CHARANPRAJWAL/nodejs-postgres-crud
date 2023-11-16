@@ -7,7 +7,7 @@ const port = 3000;
 // Connect to your PostgreSQL database
 const pool = new Pool({
     user: 'postgres',
-    host: 'http://postgres-db.caprover.blr0.geekydev.com',
+    host: 'srv-captain--postgres-db',
     database: 'postgres',
     password: 'password',
     port: 5432,
